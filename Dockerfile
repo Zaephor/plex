@@ -1,7 +1,8 @@
-FROM phusion/baseimage:0.9.15
-MAINTAINER needo <needo@superhero.org>
+FROM phusion/baseimage:0.9.17
 #Based on the work of Eric Schultz <eric@startuperic.com>
 #Thanks to Tim Haak <tim@haak.co.uk>
+#Based on plex container from needo <needo@superhero.org>
+MAINTAINER Eric <edonaldson@draconrose.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 # Set correct environment variables
